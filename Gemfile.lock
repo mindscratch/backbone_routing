@@ -1,0 +1,12 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    therubyrhino (2.0.2)
+      therubyrhino_jar (>= 1.7.3)
+    therubyrhino_jar (1.7.4)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  therubyrhino
