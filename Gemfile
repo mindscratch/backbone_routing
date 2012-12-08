@@ -1,3 +1,3 @@
 source :rubygems
 
-gem 'therubyrhino'
+gemspec

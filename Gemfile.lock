@@ -1,3 +1,9 @@
+PATH
+  remote: .
+  specs:
+    backbone_routing (0.0.1)
+      therubyrhino
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -9,4 +15,4 @@ PLATFORMS
   java
 
 DEPENDENCIES
-  therubyrhino
+  backbone_routing!
