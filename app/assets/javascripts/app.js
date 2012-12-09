@@ -7,19 +7,20 @@ var Book = Backbone.Model.extend({
   urlRoot: '/books'
 });
 
-var Workspace = Backbone.Router.extend({
+var AppRouter = Backbone.Router.extend({
   routes: {
-    "help":                 "help",    // #help
-    "search/:query":        "search",  // #search/kiwis
-    "search/:query/p:page": "search"   // #search/kiwis/p7
+    "books/:id":            "showBook",
+    "books/:id/search/:query":     "searchBook"
   },
 
-  help: function() {
+  showBook: function(id) {
   },
 
-  search: function(query, page) {
+
+  searchBook: function(id, query) {
   }
 
 });
+
 
 //Backbone.history.start({pushState: true})
